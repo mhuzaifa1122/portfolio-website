@@ -7,7 +7,7 @@
     <title>Contact</title>
     <style>
         button{
-            border: 3px solid black;
+            border: 1px solid black;
             border-radius: 10px;
         }
 
@@ -21,12 +21,17 @@
 </head>
 
 <body>
-
-    <button id="page-top"><a href="./../index.html"> <b class="button-font">Home</b> </a></button>
-    <button><a href="./../project/index.html"> <b class="button-font">Projects</b> </a></button>
-    <button><a href="./../skills/index.html"> <b class="button-font">Skills</b> </a></button>
-    <button><a href="./../contact/index.html"> <b class="button-font">Contact</b> </a></button>
-
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <button id="page-top"><a href="./../index.html"> <b class="button-font">Home</b> </a></button>
+            <button><a href="./../project/index.html"> <b class="button-font">Projects</b> </a></button>
+            <button><a href="./../skills/index.html"> <b class="button-font">Skills</b> </a></button>
+            <button><a href="./../contact/index.html"> <b class="button-font">Contact</b> </a></button>
+        
+        </nav>
+    </header>
+   
     <hr>
     <button>
         <a href="#page-bottom"><b class="button-font">Page bottom</b></a>
@@ -34,20 +39,21 @@
     <h2>Contact info</h2>
     <ul>
         <li> <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFiklEQVR4nO2aa2wUVRTHf1QXCdpQHirI04pQi90GKlDE2spum/CIQnm0W5A05R1oKN1dCkEkxA8khhA0GvpBJcFEEq0IFYNKd4eHBqIIEjRCgATBCDa8Yh8CpVxzp7OwM2zb2e003cL+k/Plnpm7/c25c+65ZwoxxRRTTDHFFJMqryjDI4pZKWbgEXYWChsPtLxC6MwjavCKPXjEApaLBB54YK/O6vGKDygTgzr6z8Sxj5EOP5Uv/0B8OwIHg79NsXiMDoNVuOJUEE6FH9sEnX+gkjk/fcuic8coqbvSCvhRvOJ5OhBWWADt0llSXikz937O8prqZqCv4Rav0oGwoo3QqUAakAVMvQtui5/D5G3lrKi/FiKx/YdH5NCemlBFssPP1WZgm8zPwUyFJ8Ka2Ctq8YiTeIQfj1jD7MPpwIvA6yp4r2HzWHDmSMhs7haj2wU27Qg2p8LJFmEjhQ61bD3iZzwNTiARmAZxBeT5KvCKO4brLlAq+lgO7PBRZAo2EuiWk9ROXIoEylCjPW3npyGuqbAc2OlnT1jA4UC3viX9oWXmFBV67lHffde4xWRLgR1+/g4b2Cx0/MBChue7mbRtCwvP/oKnUb9sA0u3RPQDhtMt4U2WXjptuOYEiC7WASvciAjYXPbWb0v2RatZcvFUCOhDrBPdgNGkFJXhabxt8L9hHbCPmkiBHX4aHQpTmp3cfcvN4vMFJGbLzCz313w1ioXHlRDQa4A4IIei3w8a/LstA876hrORwmYrFLY4+T2YOrxiA8kz+wLZamaed/KwAfhfVoungQRS55cZfA2WZeyxH4WftBw+7tjf4V3gUVPA9+wwS/7sKX+WHkOLKKm/bgBbr905jmWXzxnuzbMEOMnDe+HCjljNFu29zAZsYe7DX2ve8Uz9cqve13hC8yXgOrBL5yu9WW4JcHwihY4qbpoFHrWJiqBElA/0b3Zyuc2sqLu/fPSKSeqD6p08G/ftBp1vlZAFCeSUr9ONl9QesgQYmDj2Y/abjW73ZygKgm3645qXiz4j5rO0+owhyl9o/mEsvvCb4WE0JcFxq6boI3zjklXALw3I5S0zwFm7qQ6CfdbE3LIensqYlfpouRsuan4bhb9W6XzFV4ubHoUryXBPnVXAgyXE+O0cMxHhW3GPM9tEZIPVle59Jqtn44AVHt9215tTXqbzFRycqY73TOyhHz8UWBVtVldgVl8nHoef261Bj9xIaQS/8aShCJFHxYDGGHxDtXGbYXwGFmqsnHTMFlNb1OVsRT3ihaM47WwcMHuQr5/BJ/diqS6GcWmWqbcEtiUwN3MX500UHdXOfWrB36mVKaH7T2GVfFdbhVb4J4JIR5V6aNnXleTmfbkFPQyRTgskidQNfGaypu7U0I/IQiQAPWozO01BR7C8J+xjYtg9snZSTyAvAJ22iR1WR9rpY5bTT0Ob+94WanDgfbYa2uEnT4MN3Bc10C8Eb/xWQIeAjTpoezC02XdaFidOH7mZStN5Wb6rDoW1DqWFSi6Svnc7KSVCaAlR71Q42yJoZ4BOM7m8I7SoWd4pDyO0PQa9ma/aLdLR+k6nyjLU33rtHaFZ15O2Ejp5JR86fCH32LbY9Wy/elYnKqEH5rImczeXrICdUEVt1i7GE4WyB0PLrmb6Vg60CXYvdYOms1aW3a02+6OhDJU2JJ91GTs4HTbsd9RosIG5ZGMiKjUk+JSlWhwFw5ay8ZXtHJPfolqDzajg1FMZlBgad7L9FLXqBerXRP1nUnD1SmOZfT1b0z9hf1YlF177nlppmZX8Jceem88G+YA6EyxB7dX0UNBhWKeBNfaicyKAze2MsMEaoP2f1t2GQgsms3JU1NBWqLv68axpucuvh9M1m6SNyYZ8TDHFFBMPlf4HA3k/GTkBoAsAAAAASUVORK5CYII="
+                src="./../icons/phone-call-icon.png"
                 width="15"> Phone NO. 03128352877</li>
-        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACEklEQVR4nO2YO08CQRDH11jYGisTW7X1E1jZKcTSL2EQJHJbEAsJiZ2FhZ2FpbWFDY/IO0YN3GIEiQWFxhhBER8oMGZvFVC4wJ3mbi/ZfzIh7GyW+e3Mzh2LkJCQkBDfkrKLSCJhhEkVYQIGWRVhEkKSbP9b8FjeNDBoUDG//p03P3hgJtt0AChlw0HwBJBEgjoA5CeOMlDRDqC2mCcNyJUEtBJjn/S7ERCapRL8tC8FR5dlqNbqECmUYWojZQyEZvVaxJVUgu5UOF9mmbAEwEpM2flOPb3VWTlZAsBl9Qx42BmgEDQToXwJJi11BrDVu5AzAcgR7TY63s8vZQC5j9tznF8bsHZK+7xBAI4I9BId7+ef8CZhK1iE7HUVXt8b8PDyoZTi8n4ORtyJ/pk0E2DGn4LbSg3UdFKswLg3ybLEI0Dh7gX6KZQvwZArzifAoJrfyaiXkpkAjWZTqf+57TQs7WYhcFHqOW8vdcMOOm8A6wdXLDBa4540DK8m4PD8vmte7va53dF4AhjD8Z+t0pOG2a2zrnmPrx/qryVmATSbHf6WyTAqJVTmRvkCYP6o9rWwACAiA98SJYTFISaiCyHRRv/lH1mcPWh+Gx0fxK9lLfzXBxlPV4uS/KgdgN7Pmx04br07BfRkwM5PBjIL2gFYFvymB4+JT1/wLQjZptzPG3kmJPpbckD/zgsJCQkhg/QJ3PVUWJ5Zt98AAAAASUVORK5CYII="
+        <li><img src="./../icons/linkedin-icon.png"
                 width="15">
             <button><a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank"><b
                         class="button-font">Huzaifa linkedin profile</b></a></button>
 
         <li> <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAADgklEQVR4nJVW3W9MQRS/Hjx4ICQSDxIPxJ/gQfwFYlFFkFLfQqKRokK1Gk1VIk2QlAQhPtOi1Q9tUbbsVqlVJK1227QU7ba7O3NnztzqLg2OnNu9195+2Z3kPJyZc89vzsec39W0KZYQYgGTxhEuoZZJ6OcSIlyqYS5UNxOqnkuVGQRYqCW7OB+ezyTcYAJ+cakwXpgEpy7gN5fqdghgUWLOpUxlQkn6OCQE1nU9w/ymQtz2aBe6KlJM2VSzBY96crD0Yzn28eAomIAoFyp9SucMYE/sRvis5wVuf7zbdjqZbHiYhmXtVf8iE5A3ofOwUCsoJWRY3HLpv45dY+T0qyIM6rqVum0O54ZhzOUCQnRY3HI5aeeuOJDRSCDiKD6TcI6cu3s8tnFK1Tq89fEO3vOX4arK1IRByturY1FAlekcAOZQgcJC4o7He2zDUv89HBkZMaXgdWHCABtr0rCfh8zuCiu1WOPS2EmIDZ+8DkMxLGyAloF3SaXqfnulVfATGpdwi5RzvmLbYGXFGvwe/W4DQARwdeXahAGOe/NiAKpB40J9ICWzIcth5Au8tQHO+IqSimBz7XbrUfZrTKo+UnY/2ecwOubNsQHyX51KCoAaxHp8BPCFlL31+8cZ1vTUmQBsiOGuJ3sTBlhXvTEWgQJKkY+UbE/uBDdZi+8G3psgARXAAw2H7LMMdybe9d/HrY92jvtuX32GFUGnxgRcIeXqh5uTtN1m9LNOEyTyI2q278EXWThoDMb2Ivi0142p1evtb4renLdedIk53EhpC3Sa3TNZyC/7muyajJXoz6hpY9k3fm62uihd+/YNZ3ABYdrIayyYMrcnmwqwi3eNAyjvemDbHHAfsm5vSClnj45oAcdps/lrYg8qw52J11qvY0nHXczyHHXU7H1fq1Xgwn8cICCXNmmOJNOOrjih9D7oGJ1DTKhextjMOJIBLx2cfJlcv7vsm6/Hqs5aa8hFdF0tjaNHPosJGKFhl163A7M9eXi7tRSbvrzBM81npxwRdGuybw34befEK04Wk0aKRY9BXTj4lqQ31G+Gft53AXO9+ZjtOWHO/ZK2MuwY6I7jZvWZASyZgIPVxTgC/8MktBE/MKkOcwn+sYDjBQa5gBzqxol5WKin9NjCOmwKDg3Niz9DxGm6biwjB/TnwIV6ziQ0cgEVTKpTuq6WI+L0yTie1l9W67eP/UikBgAAAABJRU5ErkJggg=="
+                src="./../icons/whatsapp-icon.png"
                 width="15"> 03128352877</li>
         <li> <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACv0lEQVR4nO2UT2jTYByG48F5c4ieJ47RBE0rbZItcT2VHYQWWoebx11ksEPPehC92YA35wSvnpyDVoUetNrmYGvRKiK7bG6oW77uIqOCcyVx/eSbjWY1af70r/C98N7Kr++TPC1B4ODg4ODg6FLyeE7kKepugSTLeZLcyZNkseDxTBNdzk+JnlYluqjk6B0l5y2rOfoOzFDHrceT5GqBoqBBl0rDw4OdHg4zzKAi0Uuq5IX/NEevNIXYf/LG47WuFSmK6dR4JetlVMm7Zjj+b+fNAUhyywIAtQp4Lt7u8YDn4orkrVqMh0qOBuYAFFWzAQCBwEGZ5x59CQaPtTr86+joUSBwD9BNq/G/Abw102N2xmsAdYjPm+OjvNvxgGcCQOA+avfsAKC2DaBeBQjcFUgQh5yMLwvsLOC5qv5WrwAcKaVXBjS0ZYD5iZn3bgHsKNWoDHAB8Doz9sYUYEgEcHJuUc3RZ6tuAJopZaQMcADwI+vbvZUOVSKpGGwKgBq49g7eD8b2XAIcUKqZMsAmwPrzQPXy4zBE420BoJ66uQGvXrxeM/prtTOmDrGOavfzqsH49NNxeCEV/TPeNoDWybnFmnTGt+sGwGlV3fDvWZ8ipicODHcFoCmVYkNb3QLYfOHf1ivTMoCmVCIcX0FKdRLg5TP+U6MybQHQOjuz8AEIXKUDAJWFJ6HlZsPbAoBaFvwnAc++atd4WeDebvD+ETvj2wKAPltimMMyz4qywLWklMxz91bPjxxBN7sKoAWcY6KAZ7edP3X2mzzGXtLf6gkAilOlNGWIhvQMwIlSemX6CsBKKSNl+hLASCkzZfoWAAVpIgvsbVQzZfoawE0iGEDEb6ClRLBCCQD6/kecjMmmB4ZEWex3gHAqmjA9cPrG8sA+hMWb6AVAOBkDkWRMnHo4NdCp78fBwcHBIf67/ALECpwyy5gUBAAAAABJRU5ErkJggg=="
+                src="./../icons/gmail-icon.png"
                 width="15"> mhuzaifa3128352877@gmail.com</li>
-        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVR4nO2Zz08TQRTHNzM0MQHixaMnI2jE4Mmr/4A/okej3r0oAn+AiYke9IYkpDNFDAkRqokHL4bEEzFelIqAJP5IDPvetrXQAhXSsrRjplYMboGdnd0th/0m79TN7Pcz8+bN7KthRIoUKZJUbNg8Qxj0UYZJwnCGcsxTjpv1yBOGH2u/cbNXPmscCCVy7YRDP2XwmXIUSsFgXgIbg9m28I3fFS1yJinDZWXjDhBcIgzvyDHDMR/Hk4RjStv4f0EYThsJOBGodxqHS5RD0W/z9F9arVEOFwMxTxLWDcrBDsw8/xtgE25dD2LmQzCP2xCUwQV/3A+ZHX+WVs9U24glOiey4uzLn6LreVZ0jGfE4afWXhBFud98qDbeN2wLR3H1TV5Mpctis1IVjXR5cnn3jc3hg1Z1qpVKj+YPDVti4vuG2E9X9gCoQcSxx5v70XQr5ZDzCvBwpriveTcA8pyQB6aH2Yd+r+aPjmVEeZeUUQbg8oyAPmUAT9eDevS+W2lotlCuiPupNXFzqrAdx55l9h+TwbySeXnZ0qk4498a5/65VznPY8YS6dOhpI+Mt5myw/zs8qbn8ajqZpbXXp2XzeVtB8DY1w0tAMpwXGEF8JPOyxYKToDHc7/0VoBjSmUFlvwGGNAEoBxyKgDlgweApUAA7k2viXypsiO2GhwBpa2q47l8qSK6X2QDAXCdQo9cnriNVBVCtI9Y/qeQyibWAfhR3ApsEyfDAJiEUkBlVLZHQgAYUNjYhONt1wAxbnarfKgcGU3viC8rzirEFtYdz7U+cZv/KGIs3eUaoL4KswolLtgyyhQvc6ppFDQA4WZvqB80vgIwXPLcvZMds2YDEIa3DK2PeobTzQIgHN4bSUENLfHF45TBavgA4ENbpS7Z7lNpbOkDgE0T5nnDT8l2n1sIPQCwCcNrRhCS7T43XTrPAAxWfZ95hxh0yo6Z3wBEbtghs8MIRbI6xbFnt2u3GgDkaqVSu9p40WC2TZ7YhMOcKoC8qhB5wjblL6YGkpet2qpwnHhtlgqLRbuybleFDLNoVx6kVi15Ja61R4atU832GylSJONg6DekIcfGE7hs2QAAAABJRU5ErkJggg=="
+
+        <li><img src="./../icons/facebook-icon.png"
                 width="15"><button><a href="https://www.facebook.com/profile.php?id=100051021398923&mibextid=ZbWKwL"><b
                         class="button-font">
                         Huzaifa facebook profile
@@ -84,6 +90,25 @@
     </button>
 
 
+    <footer>
+        <center>
+               <p><span><a href="https://www.facebook.com/profile.php?id=100051021398923&mibextid=ZbWKwL" target="_blank"><img src="./../icons/facebook-icon.png" width="40" alt="Huzaifa facebook profile"></a>
+               </span>
+
+               <span>
+                        <a href="mailto:mhuzaifa3128352877@gmail.com" target="_blank"><img src="./../icons/gmail-icon.png" width="40" ></a>
+               </span>
+               <span>
+                <a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank"><img src="./../icons/linkedin-icon.png" width="
+                        40" ></a>
+               </button>
+               <span>
+                <a href="https://wa.me/923128352877
+                " target="_blank"><img src="./../icons/whatsapp-icon.png" width="40" ></a>
+               </span>
+</p>                          
+        </center>
+</footer>
 
 
 </body>
