@@ -26,6 +26,14 @@
                         border-collapse: collapse;
                 }
         </style>
+        <script>
+                // JavaScript function to play the sound
+                function playSound() {
+                  var sound = document.getElementById("mySound");
+                  sound.play();
+                }
+                </script>
+       
 </head>
 
 <body>
@@ -50,9 +58,20 @@
 
         <img src="./images/hspic.jpg" alt="huzaifa pic" width="100" height="100" style="border-radius: 40px;">
 
-        <h2>Muhammad Huzaifa <a href="./project/index.html#portfolio-website-video"><img src="./icons/youtube-icons.png" width="20"></a></h2>
+        <h2>Muhammad Huzaifa <a href="./project/index.html#portfolio-website-video"><img src="./icons/youtube-icons.png" width="20"></a>
         
-        <audio src="./Audio/Hi huzaifa.unknown" controls></audio>
+                <!-- Audio element with a sound file -->
+                 <audio id="mySound"> <source src="./Audio/huzaifa-name.mp3" type="audio/mp3"> </audio>
+               
+               <!-- Button to play the sound -->
+               <img onclick="playSound()" width="20" src="./icons/speaker-icon.png">
+        
+        </h2>
+        
+      
+      
+
+
         <p>I am <b><i style="color: blue;">M Huzaifa</i></b> and related from Kernel sher killi swabi. 
                 
                 <p>I currently studying in BS Information
