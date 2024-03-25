@@ -5,201 +5,222 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home page</title>
+        <link rel="stylesheet" href="./style.css">
 
-        <style>
-                button {
-                        border: 1px solid black;
-                        border-radius: 10px;
-                }
-
-                .button-font {
-                        color: black;
-                        font-weight: 600;
-                }
-
-                table,
-                tr,
-                td,
-                th {
-
-                        border: 2px solid black;
-                        border-collapse: collapse;
-                }
-        </style>
         <script>
                 // JavaScript function to play the sound
                 function playSound() {
-                  var sound = document.getElementById("mySound");
-                  sound.play();
+                        var sound = document.getElementById("mySound");
+                        sound.play();
                 }
-                </script>
-       
+        </script>
+
 </head>
 
 <body>
-        <header>
-                
-                <h1>Introductive page</h1>
-                <nav>
+        <header> <!-- header start-->
 
-                        <button id="page-top"><a href="./index.html"> <b class="button-font">Home</b> </a></button>
-                        <button><a href="./project/index.html"> <b class="button-font">Projects</b> </a></button>
-                        <button><a href="./skills/index.html"> <b class="button-font">Skills</b> </a></button>
-                        <button><a href="./contact/index.html"> <b class="button-font">Contact</b> </a></button>
-                </nav>
-        </header>
+                <p class="portfolio-text">Portfolio</p>
+                <!-- navbar buttons for linking another pages -->
+                <div id="nav-buttons">
+
+                        <div id="button-pos">
+
+                                <button id="page-top"><a href="./index.html" class="button-font">Home </a></button>
+                                &nbsp &nbsp
+
+                                <button><a href="./index.html#about" class="button-font"> About</a></button> &nbsp &nbsp
+
+                                <button><a href="./project/index.html" class="button-font"> Projects</a></button> &nbsp
+                                &nbsp
+
+                                <button><a href="./skills/index.html" class="button-font"> Skills</a></button> &nbsp
+                                &nbsp
+
+                                <button><a href="./contact/index.html" class="button-font"> Contact</a></button> &nbsp
+                                &nbsp
+
+                        </div>
+                </div>
+        </header> <!-- header end-->
 
         <hr>
-        <button>
-                <a href="#page-bottom"><b class="button-font">Page bottom</b></a>
-        </button>
+        <section id="home"> <!-- section for access home area -->
 
-        <br><br>
 
-        <img src="./images/hspic.jpg" alt="huzaifa pic" width="100" height="100" style="border-radius: 40px;">
+                <button>
+                        <!--  button link to last (hr)-->
+                        <a href="#page-bottom"><b class="button-font">Page bottom</b></a>
+                </button>
 
-        <h2>Muhammad Huzaifa <a href="./project/index.html#portfolio-website-video"><img src="./icons/youtube-icons.png" width="20"></a>
+                <br><br>
+                <!-- insert huzaifa pic -->
+                <img class="hpic" src="./images/hspic1.jpg" alt="huzaifa pic">
+
+                <div class="home-text">
+                        <h2>Hello' it's Me</h2>
+                        <div><span class="name">Muhammad Huzaifa</span>
+
+                                <a href="./project/index.html#portfolio-website-video"><img
+                                                src="./icons/youtube-icons.png" width="20"></a>
+
+                                <!-- Audio element with a sound file -->
+                                <audio id="mySound">
+                                        <source src="./Audio/huzaifa-name.mp3" type="audio/mp3">
+                                </audio>
+
+                                <!-- Button to play the sound -->
+                                <img onclick="playSound()" width="20" src="./icons/speaker-icon.png">
+
+                        </div>
+                        <h3>A WEB Developer</h3>
+                        <p>I am a Web Developer with experiance of </p>
+                        <p>one year. And also some experiance of web </p>
+                        <p>desiging.</p>
+
+                        <br><br>
+                        <button><a href="./index.html#about"><b class="button-font">More about me</b></a></button>
+
+
+                </div>
+        </section>
+
+        <!-- ---------------------------ABOUT------------------------------------ -->
+
+        <div id="about">
+                <hr>
+                <h2 class="about-font">ABOUT ME</h2>
+                <p class="about-text">Full Stack Developer!</p>
+                <!-- from here about section start -->
+                <img class="hpic-about" src="./images/hspic1.jpg" alt="huzaifa pic">
+                <div>
+
+                        <table class="table-about">
+                                <tr>
+                                        <th class="head">Name</th>
+                                        <td>Muhammad Huzaifa</td>
+                                </tr>
+                                <tr>
+                                        <th>Department</th>
+                                        <td>Web and app devolopment</td>
+                                </tr>
+                                <tr>
+                                        <th>Batch</th>
+                                        <td>2nd</td>
+                                </tr>
+                                <tr>
+                                        <th>Current address</th>
+                                        <td>Hostel 6 of AUP</td>
+                                </tr>
+                                <tr>
+                                        <th>Parmenent adddress</th>
+                                        <td>Kernel sher killi swabi</td>
+                                </tr>
+                                <tr>
+                                        <th>University</th>
+                                        <td>University of agriculture peshawar</td>
+                                </tr>
+                                <tr>
+                                        <th>Current semester</th>
+                                        <td>4<sup>th</sup></td>
+                                </tr>
+                                <tr>
+                                        <th>University Department</th>
+                                        <td>Bs information Technology</td>
+                                </tr>
+                                <tr>
+                                        <th>Best experiance</th>
+                                        <td>In Microsoft office</td>
+                                </tr>
+                                <tr>
+                                        <th>Phone No</th>
+                                        <td>+923128352877</td>
+                                </tr>
+                                <tr>
+                                        <th>Whatsapp No</th>
+                                        <td>+923128352877</td>
+                                </tr>
+                                <tr>
+                                        <th>Gmail</th>
+                                        <td>mhuzaifa3128352877@gmail.com</td>
+                                </tr>
+
+
+                        </table>
+                        <br><br>
+                        <!-- map address by iframe -->
+                        <div>
+
+                                <iframe class="iframe"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13227.633696412275!2d71.47268146276473!3d34.02056150940599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d916cdc967f91d%3A0xeceac377bd7cfbc1!2sThe%20University%20of%20Agriculture!5e0!3m2!1sen!2s!4v1710168506270!5m2!1sen!2s"
+                                        width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                </div>
+
+        </div>
+
+
+<!-- ------------------------  Project  --------------------------------------------- -->
+                
+                <div class="project1">
+                        <hr>
+                        <div class="project1-text">
+
+                                <p>Latest Projects</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt <br> illum laudantium commodi? Ratione iste neque vel minus assumeunde,<br> maiores molestiae qui non voluptates perferendis?</p>
         
-                <!-- Audio element with a sound file -->
-                 <audio id="mySound"> <source src="./Audio/huzaifa-name.mp3" type="audio/mp3"> </audio>
-               
-               <!-- Button to play the sound -->
-               <img onclick="playSound()" width="20" src="./icons/speaker-icon.png">
         
-        </h2>
-        
-      
-      
+                                <p>I create a Portfolio website with my all persnol information <br> like educatio, skills, projects
+                                                and contact info.</p>
+                        </div>
+                                        
+                                
+                        <video class="project1-video" src="./../video/Portfolio website.mp4" controls title="Huzaifa Portfolio website video"
+                                ></video>
+                </div>
+                        
+
+                        
+                        
+                        
+                        
 
 
-        <p>I am <b><i style="color: blue;">M Huzaifa</i></b> and related from Kernel sher killi swabi. 
-                
-                <p>I currently studying in BS Information
-                        Technology in Agriculture university of Peshawar. I am also intrested in web devolopment and application
-                        devolopment, there for i strongly apply for Sylani mass traning centre of peshawar.</p> I realy enjoying the
-                SMIT web devolopment course with <b><i style="color: blue;">Sir Mehtab Alam</i></b>.</p>
-        <hr>
+        <div id="footer">
 
-        <h2>Address</h2>
-        <p>I am from basically Kernel sher killi swabi but currently staying in Hostel agriculture university of
-                peshawar for bs information technology.</p>
-        <p> <img src="./icons/map-icon.png"
-                        width="15"> Kernel sher killi swabi.</p>
-        <p> <img src="./icons/map-icon.png"
-                        width="15"> hostel 6 AUP</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13227.633696412275!2d71.47268146276473!3d34.02056150940599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d916cdc967f91d%3A0xeceac377bd7cfbc1!2sThe%20University%20of%20Agriculture!5e0!3m2!1sen!2s!4v1710168506270!5m2!1sen!2s" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <hr>
-        <h2>Contact info</h2>
-        <ul>
-                <li> <img src=".//icons/whatsapp-icon.png"
-                                width="15"> <button><a href="https://wa.me/923128352877
-                                        "><b class="button-font">Huzaifa whatsapp chat</b></a></button></li>
-                <li><img src="./icons/linkedin-icon.png"
-                                width="15">
-                        <button><a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank"><b
-                                                class="button-font">Huzaifa Linkedin profile</b>
-                                </a></button>
+                <hr id="page-bottom">
+                <button>
+                        <a href="#page-top"><b class="button-font">Page top</b></a>
+                </button>
+                <!-- footer -->
+                <footer>
+                        <center>
+                                <span><a href="https://www.facebook.com/profile.php?id=100051021398923&mibextid=ZbWKwL"
+                                                target="_blank"><img src="./icons/facebook-icon.png" width="40"
+                                                        alt="Huzaifa facebook profile"></a>
+                                </span>
 
-                <li> <img src="./icons/phone-call-icon.png"
-                                width="15"> 03128352877</li>
-                <li> <img src="./icons/gmail-icon.png"
-                                width="15"> mhuzaifa3128352877@gmail.com</li>
-                <li><img src="./icons/facebook-icon.png"
-                                width="15"><button><a
-                                        href="https://www.facebook.com/profile.php?id=100051021398923&mibextid=ZbWKwL"
-                                        target="_blank"><b class="button-font">Huzaifa
-                                                facebook profile</b>
-                                </a></button></li>
-        </ul>
-        <hr>
-        <h2>Introductive table</h2>
-        <table>
-                <tr>
-                        <th>Name</th>
-                        <td>Muhammad Huzaifa</td>
-                </tr>
-                <tr>
-                        <th>Department</th>
-                        <td>Web and app devolopment</td>
-                </tr>
-                <tr>
-                        <th>Batch</th>
-                        <td>2nd</td>
-                </tr>
-                <tr>
-                        <th>Current address</th>
-                        <td>Hostel 6 of AUP</td>
-                </tr>
-                <tr>
-                        <th>Parmenent adddress</th>
-                        <td>Kernel sher killi swabi</td>
-                </tr>
-                <tr>
-                        <th>University</th>
-                        <td>University of agriculture peshawar</td>
-                </tr>
-                <tr>
-                        <th>Current semester</th>
-                        <td>4<sup>th</sup></td>
-                </tr>
-                <tr>
-                        <th>University Department</th>
-                        <td>Bs information Technology</td>
-                </tr>
-                <tr>
-                        <th>Best experiance</th>
-                        <td>In Microsoft office</td>
-                </tr>
-                <tr>
-                        <th>Phone No</th>
-                        <td>+923128352877</td>
-                </tr>
-                <tr>
-                        <th>Whatsapp No</th>
-                        <td>+923128352877</td>
-                </tr>
-                <tr>
-                        <th>Gmail</th>
-                        <td>mhuzaifa3128352877@gmail.com</td>
-                </tr>
-                
-                <tr>
-                        <th>Linkedin profile link</th>
-                        <td><button><a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank"><b
-                                                        class="button-font">Huzaifa Linkedin profile</b></td>
-                <tr>
-                        <th>Facebook profile link</th>
-                        <td><button><a href="https://www.facebook.com/profile.php?id=100051021398923&mibextid=ZbWKwL"
-                                                target="_blank"><b class="button-font">Huzaifa
-                                                        facebook profile</b>
-                                        </a></button></td>
-                </tr>
+                                </span>
+                                <a href="mailto:mhuzaifa3128352877@gmail.com" target="_blank"><img
+                                                src="./icons/gmail-icon.png" width="40"></a>
+                                </span>
+                                </span>
+                                <a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank"><img
+                                                src="./icons/linkedin-icon.png" width="
+                                40"></a>
+                                </span>
 
-        </table>
+                                <span> <a href="https://wa.me/923128352877
+                        " target="_blank"><img src="./icons/whatsapp-icon.png" width="40"></a>
 
-        <hr id="page-bottom">
-        <button>
-                <a href="#page-top"><b class="button-font">Page top</b></a>
-        </button>
-        <footer>
-                <center>
-                       <span><a href="https://www.facebook.com/profile.php?id=100051021398923&mibextid=ZbWKwL" target="_blank"><img src="./icons/facebook-icon.png" width="40" alt="Huzaifa facebook profile"></a>
-                       </span>
+                                </span>
+                        </center>
+                </footer>
 
-                </span>
-                                <a href="mailto:mhuzaifa3128352877@gmail.com" target="_blank"><img src="./icons/gmail-icon.png" width="40" ></a>
-                       </span>
-                </span>
-                        <a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank"><img src="./icons/linkedin-icon.png" width="
-                                40" ></a>
-                       </span>
-                
-                <span>      <a href="https://wa.me/923128352877
-                        " target="_blank"><img src="./icons/whatsapp-icon.png" width="40" ></a>
-                       
-      </span>                          
-                </center>
-        </footer>
+        </div>
+
+        <!-- --------------------------------------------------------------- -->
 </body>
 
 </html>
