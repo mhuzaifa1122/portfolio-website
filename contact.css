@@ -1,0 +1,117 @@
+#contact {
+    position: relative;
+    top: 4500px;
+}
+
+.contact-tittle {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 9px rgb(9, 198, 227);
+    position: absolute;
+    left: 30px;
+    top: 45px;
+}
+
+/* ---------button for top bottom------------ */
+.top-bottom-from-contact {
+    position: relative;
+    top: 4670px;
+    left: 350px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 4px 4px 9px rgb(121, 216, 231);
+
+}
+
+.contact-input {
+
+    position: absolute;
+    top: 80px;
+    left: 750px;
+
+}
+
+.small-input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 20px;
+    width: 600px;
+    height: 60px;
+    color: white;
+    border: 0px solid black;
+    border-radius: 8px;
+    background-color: rgb(100, 100, 105);
+    
+}
+
+.large-input {
+    width: 600px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    border: 0px solid black;
+    border-radius: 8px;
+    background-color: rgb(100, 100, 105);
+}
+
+.submit-button {
+    width: 650px;
+    height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(17, 17, 17);
+    border: 0px solid black;
+    border-radius: 40px;
+    background-color: rgb(14, 205, 226);
+    box-shadow: 1px 1px 30px 2px rgb(14, 205, 226);
+}
+
+.contact-text{
+    position: absolute;
+    top: 150px;
+    width: 600px;
+    left: 30px;
+}
+.contact-topic{
+    font-size: 40px;
+    font-family:monospace;
+}
+.contact-message{
+    font-size: 30px ;
+    color:rgb(182, 182, 189) ;
+}
+.list-icon1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 4px 4px 9px rgb(121, 216, 231);
+}
+.list-icon2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 4px 4px 9px rgb(121, 216, 231);
+}
+.contact-list1{
+    font-size: 20px;
+    font-weight: 900px;
+    color: black;
+    position: absolute;
+    top: 277px;
+    left: 50px;
+    text-shadow: 1px 1px 1px rgb(121, 216, 231);
+}
+.contact-list2{
+    color: black;
+    position: absolute;
+    top: 322px;
+    left: 50px;
+    text-shadow: 1px 1px 1px rgb(121, 216, 231);
+}

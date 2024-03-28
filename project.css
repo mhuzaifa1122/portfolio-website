@@ -1,0 +1,102 @@
+
+/* ------project---------- */
+.project1 {
+    position: relative;
+    top: 1700px;
+    right: 20px;
+}
+/* ---bottons (top down in project) */
+.top-bottom-from-project{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 70px;
+    left: 910px;
+    box-shadow: 4px 4px 9px rgb(121, 216, 231);
+}
+.project1-video {
+    position: absolute;
+    top: 150px;
+    width: 600px;
+    height: 400px;
+    right: 55px;
+
+}
+
+.project1-text {
+    position: absolute;
+    top: 150px;
+    width: 600px;
+    height: 400px;
+    left: 55px;
+    font-size: 30px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 4px 4px 9px rgb(216, 239, 141);
+}
+
+.project-tittle {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 9px rgb(9, 198, 227);
+    position: absolute;
+    left: 490px;
+    top: 10px;
+
+}
+
+.list-arrow {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    box-shadow: 4px 4px 9px rgb(121, 216, 231);
+}
+
+/* ----------project 2---------- */
+
+.project2-pic {
+    position: absolute;
+    top: 800px;
+    width: 600px;
+    height: 400px;
+    left: 55px;
+
+}
+
+.project2-text {
+    position: absolute;
+    top: 750px;
+    width: 600px;
+    height: 400px;
+    right: 55px;
+    font-size: 30px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 4px 4px 9px rgb(87, 246, 29);
+}
+
+.list-arrow {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    box-shadow: 4px 4px 9px rgb(121, 216, 231);
+}
+
+.project-table {
+    padding: 15px;
+    width: 1300px;
+    height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    background-color: rgba(182, 193, 202, 0.75);
+    position: absolute;
+    right: 50px;
+    top: 1400px;
+}
+.project-table-row{
+    font-size: 40px;
+}

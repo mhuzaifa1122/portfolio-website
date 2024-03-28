@@ -5,7 +5,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home page</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./home.css">
+        <link rel="stylesheet" href="./about.css">
+        <link rel="stylesheet" href="./project.css">
+        <link rel="stylesheet" href="./skills.css">
+        <link rel="stylesheet" href="./contact.css">
 
         <script>
                 // JavaScript function to play the sound
@@ -31,10 +35,10 @@
 
                                 <button><a href="./index.html#about" class="button-font"> About</a></button> &nbsp &nbsp
 
-                                <button><a href="./project/index.html" class="button-font"> Projects</a></button> &nbsp
+                                <button><a href="./index.html#project" class="button-font"> Projects</a></button> &nbsp
                                 &nbsp
 
-                                <button><a href="./skills/index.html" class="button-font"> Skills</a></button> &nbsp
+                                <button><a href="./index.html#skills" class="button-font"> Skills</a></button> &nbsp
                                 &nbsp
 
                                 <button><a href="./contact/index.html" class="button-font"> Contact</a></button> &nbsp
@@ -50,7 +54,7 @@
 
                 <button>
                         <!--  button link to last (hr)-->
-                        <a href="#page-bottom"><b class="button-font">Page bottom</b></a>
+                        <a href="#page-bottom" class="button-font">Page bottom</a>
                 </button>
 
                 <br><br>
@@ -61,16 +65,16 @@
                         <h2>Hello' it's Me</h2>
                         <div><span class="name">Muhammad Huzaifa</span>
 
-                                <a href="./project/index.html#portfolio-website-video"><img
-                                                src="./icons/youtube-icons.png" width="20"></a>
+                                <a href="./project/index.html#portfolio-website-video">
+                                        <img src="./icons/youtube-icons.png" class="home-icon-video"></a>
 
                                 <!-- Audio element with a sound file -->
                                 <audio id="mySound">
                                         <source src="./Audio/say-mhuzaifa.unknown" type="audio/mp3">
                                 </audio>
 
-                                <!-- Button to play the sound -->
-                                <img onclick="playSound()" width="20" src="./icons/speaker-icon.png">
+                                <!-- speaker icon -->
+                                <img onclick="playSound()" src="./icons/speaker3.png" class="home-icon-speaker">
 
                         </div>
                         <h3>A WEB Developer</h3>
@@ -79,7 +83,7 @@
                         <p>desiging.</p>
 
                         <br><br>
-                        <button><a href="./index.html#about"><b class="button-font">More about me</b></a></button>
+                        <button><a href="./index.html#about" class="button-font">More about me</a></button>
 
 
                 </div>
@@ -89,7 +93,14 @@
 
         <div id="about">
                 <hr>
-                <h2 class="about-font">ABOUT ME</h2>
+                <p class="about-tittle">ABOUT ME </p>
+                <a href="./index.html#page-top"><img src="./icons/up-arrow.png" class="top-bottom-from-about"
+                                alt=""></a>
+                <a href="./index.html#project"><img src="./icons/down-arrow.png" class="top-bottom-from-about"
+                                alt=""></a>
+
+
+
                 <p class="about-text">Full Stack Developer!</p>
                 <!-- from here about section start -->
                 <img class="hpic-about" src="./images/hspic1.jpg" alt="huzaifa pic">
@@ -161,60 +172,254 @@
         </div>
 
 
-<!-- ------------------------  Project  --------------------------------------------- -->
-                
-                <div class="project1">
-                        <hr>
-                        <div class="project1-text">
+        <!-- ------------------------  Project  --------------------------------------------- -->
 
-                                <p>Latest Projects</p>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt <br> illum laudantium commodi? Ratione iste neque vel minus assumeunde,<br> maiores molestiae qui non voluptates perferendis?</p>
-        
-        
-                                <p>I create a Portfolio website with my all persnol information <br> like educatio, skills, projects
-                                                and contact info.</p>
-                        </div>
-                                        
-                                
-                        <video class="project1-video" src="./../video/Portfolio website.mp4" controls title="Huzaifa Portfolio website video"
-                                ></video>
+        <div class="project1">
+                <hr>
+
+                <p class="project-tittle" id="project">Latest Projects</p>
+
+                <!-- up down images button -->
+                <a href="./index.html#about"><img src="./icons/up-arrow.png" class="top-bottom-from-project" alt=""></a>
+                <a href="./index.html#skills"><img src="./icons/down-arrow.png" class="top-bottom-from-project"
+                                alt=""></a>
+                <div class="project1-text">
+
+                        <p>
+                                <img src="./icons/list-arrow.png" alt="list-arrow" class="list-arrow">&nbsp;&nbsp;
+                                PROJECT 1
+                        </p>
+
+                        <p> <img src="./icons/list-arrow.png" alt="list-arrow" class="list-arrow">&nbsp;&nbsp; I create
+                                a Portfolio website with my all persnol information like education, skills, projects
+                                and contact info.
+                        </p>
+
+                        <p><img src="./icons/list-arrow.png" alt="list-arrow" class="list-arrow"> &nbsp;&nbsp;By which
+                                anyone can access this website and contact me easily.</p>
                 </div>
-                        
-
-                        
-                        
-                        
-                        
 
 
+                <video class="project1-video" src="./../video/Portfolio website.mp4" controls
+                        title="Huzaifa Portfolio website video"></video>
+                <!-- --------- ----------------pROJECT 2 ------------------------ -->
+                <div class="project2-text">
+
+                        <p>
+                                <img src="./icons/list-arrow.png" alt="list-arrow" class="list-arrow">&nbsp;&nbsp;
+                                PROJECT 2
+                        </p>
+
+                        <p> <img src="./icons/list-arrow.png" alt="list-arrow" class="list-arrow">&nbsp;&nbsp; Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorem voluptates amet eius
+                                itaque ratione excepturi.
+                        </p>
+
+                        <p><img src="./icons/list-arrow.png" alt="list-arrow" class="list-arrow"> &nbsp;&nbsp; Quibusdam
+                                laborum placeat assumenda repellat debitis, nemo quia at tenetur libero corporis dolore
+                                a.</p>
+                </div>
+
+
+                <img class="project2-pic" src="./images/project-2.jpg" controls title="project 2 pic"></img>
+
+                <div>
+                        <table class="project-table">
+                                <tr class="project-table-row">
+                                        <th>S NO.</th>
+                                        <th>Project Name</th>
+                                        <th>Done/Not</th>
+                                        <th>Marks</th>
+                                </tr>
+                                <tr class="project-table-row">
+                                        <td>Project 1</td>
+                                        <td>Ms excel data entry</td>
+                                        <td>Done</td>
+                                        <td>98</td>
+                                </tr>
+                                <tr class="project-table-row">
+                                        <td>Project 2</td>
+                                        <td>Website first page design</td>
+                                        <td>not</td>
+                                        <td>Pendiing</td>
+                                </tr>
+                                <tr class="project-table-row">
+                                        <td>Project 3</td>
+                                        <td>Design animation pic</td>
+                                        <td>done</td>
+                                        <td>95</td>
+                                </tr>
+                                <tr class="project-table-row">
+                                        <td>Project 4</td>
+                                        <td>Set java script for web</td>
+                                        <td>done</td>
+                                        <td>100</td>
+                                </tr>
+                                <tr class="project-table-row">
+                                        <td>Project 5</td>
+                                        <td>Links all pages of website together</td>
+                                        <td colspan="2">pending</td>
+                                        <td></td>
+                                </tr>
+                        </table>
+                </div>
+
+        </div>
+
+        <!-- ----------------Skills-------------------- -->
+
+        <!-- up down images button -->
+        <a href="./index.html#project"><img src="./icons/up-arrow.png" class="top-bottom-from-skills" alt=""></a>
+
+        <!--  down image button -->
+        <a href="./index.html#contact"><img src="./icons/down-arrow.png" class="top-bottom-from-skills" alt=""></a>
+        <div id="skills">
+                <hr>
+                <p class="skills-tittle">My Skills</p>
+
+                <div class="windows-installation">
+
+                        <img src="./images/ms-windows.png" class="skills-pic" alt="windows-logo">
+                        <p class="skills-text">WIN INSTALLATION</p>
+                </div>
+                <div class="ms-office">
+
+                        <img src="./images/ms-office.png" class="skills-pic" alt="ms office">
+                        <p class="skills-text">MICROSOFT OFFICE</p>
+                </div>
+                <div class="html">
+
+                        <img src="./images/icons8-html-144.png" class="skills-pic" alt="ms-ppt">
+                        <p class="skills-text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HTML</p>
+                </div>
+                <div class="css">
+
+                        <img src="./images/icons8-css-144.png" class="skills-pic" alt="ms-ppt">
+                        <p class="skills-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSS</p>
+                </div>
+                <div class="ms-word">
+
+                        <img src="./images/ms-word.png" class="skills-pic" alt="ms word">
+                        <p class="skills-text">MICROSOFT WORD</p>
+                </div>
+                <div class="ms-excel">
+
+                        <img src="./images/ms-ecxel.png" class="skills-pic" alt="ms-excel">
+                        <p class="skills-text">MICROSOFT EXCEL</p>
+                </div>
+                <div class="ms-ppt">
+
+                        <img src="./images/ms-ppt.png" class="skills-pic" alt="ms-ppt">
+                        <p class="skills-text">MICROSOFT POWER-POINT</p>
+                </div>
+
+
+
+
+        </div>
+
+
+        <!-- --------------contact------------------------------- -->
+        <!-- up down images button -->
+        <a href="./index.html#skills"><img src="./icons/up-arrow.png" class="top-bottom-from-contact" alt=""></a>
+
+        <a href="./index.html#footer"><img src="./icons/down-arrow.png" class="top-bottom-from-contact" alt=""></a>
+        <div id="contact">
+                <hr>
+                <p class="contact-tittle">Contact Me</p>
+
+                <div class="contact-input">
+
+                        <input type="text" placeholder="Enter your Name" class="small-input"><br />
+                        <br>
+
+                        <input type="email" name="mobile" placeholder="Enter your Email"
+                                class="small-input" /></label><br />
+
+                        <br>
+
+                        <input type="number" name="subject" placeholder="Enter your Subject" class="small-input" />
+                        <br>
+                        <br>
+
+                        <textarea placeholder="Enter your Message" class="large-input"></textarea>
+                        <br><br>
+                        <input type="submit" class="submit-button">
+
+                </div>
+
+                <div class="contact-text">
+                        <p class="contact-topic">Let's Work Together</p>
+
+                        <p class="contact-message">Let's contact for assigning me for required project relavent to web
+                                develpement and web desiging with three year experiance. </p>
+
+                        <img class="list-icon1" src="./icons/list-arrow.png" width="30px" alt="">
+                        <span class="contact-list1">mhuzaifa3128352877@gmial.com</span>
+                                <br>
+
+                        <img src="./icons/list-arrow.png" class="list-icon2" width="30px" alt="" class="gmail-icon">
+                        <span class="contact-list2">03128352877<span/>
+
+
+
+                        <br><br><br>
+
+                        <p class="multi-icons">
+                                <span><a href="https://www.facebook.com/profile.php?id=100051021398923&mibextid=ZbWKwL"
+                                                target="_blank"><img src="./icons/facebook-icon.png" width="60"
+                                                        alt="Huzaifa facebook profile"></a>
+                                </span>
+                                &nbsp;&nbsp;
+                                </span>
+                                <a href="mailto:mhuzaifa3128352877@gmail.com" target="_blank"><img
+                                                src="./icons/gmail-icon.png" width="60"></a>
+                                </span> &nbsp;&nbsp;
+                                </span>
+                                <a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank"><img
+                                                src="./icons/linkedin-icon.png" width="60"></a>
+                                </span>
+                                &nbsp;&nbsp;
+                                <span> <a href="https://wa.me/923128352877
+                " target="_blank"><img src="./icons/whatsapp-icon.png" width="60"></a>
+
+                                </span>
+                        </p>
+                </div>
+
+
+        </div>
+
+        <!----------------------------- FOOTER-------------------- -->
         <div id="footer">
 
                 <hr id="page-bottom">
                 <button>
-                        <a href="#page-top"><b class="button-font">Page top</b></a>
+                        <a href="#page-top" class="button-font">Page top</a>
                 </button>
                 <!-- footer -->
                 <footer>
                         <center>
                                 <span><a href="https://www.facebook.com/profile.php?id=100051021398923&mibextid=ZbWKwL"
-                                                target="_blank"><img src="./icons/facebook-icon.png" width="40"
+                                                target="_blank"><img src="./icons/facebook-icon.png" width="70"
                                                         alt="Huzaifa facebook profile"></a>
                                 </span>
 
                                 </span>
                                 <a href="mailto:mhuzaifa3128352877@gmail.com" target="_blank"><img
-                                                src="./icons/gmail-icon.png" width="40"></a>
+                                                src="./icons/gmail-icon.png" width="70" ></a>
                                 </span>
                                 </span>
                                 <a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank"><img
                                                 src="./icons/linkedin-icon.png" width="
-                                40"></a>
+                                70"></a>
                                 </span>
 
                                 <span> <a href="https://wa.me/923128352877
-                        " target="_blank"><img src="./icons/whatsapp-icon.png" width="40"></a>
+                        " target="_blank"><img src="./icons/whatsapp-icon.png" width="70"></a>
 
                                 </span>
+
                         </center>
                 </footer>
 
