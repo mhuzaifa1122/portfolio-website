@@ -45,6 +45,7 @@ table {
     position: relative;
     top: 70px;
     left: 1100px;
+    right: -1100px;
     box-shadow: 4px 4px 9px rgb(121, 216, 231);
     
 }
