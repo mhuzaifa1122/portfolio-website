@@ -1,6 +1,9 @@
 
 /*---------------------------ABOUT----------------*/
-
+@font-face {
+    font-family:tittle-square;
+    src: url(./fonts/Nova_Square/NovaSquare-Regular.ttf);
+}
 /* css for table border and internel design */
 th,
 sup,
@@ -44,8 +47,8 @@ table {
     height: 40px;
     position: relative;
     top: 70px;
-    left: 1100px;
-    right: -1100px;
+    left: 1150px;
+    right: -1150px;
     box-shadow: 4px 4px 9px rgb(121, 216, 231);
     
 }
@@ -65,9 +68,10 @@ table {
 
 .about-tittle {
     font-size: 60px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'tittle-square', Arial, sans-serif;
     position: absolute;
-    right: 370px;
+    right: 340px;
+    top: 2px;
     text-shadow: 4px 4px 9px rgb(7, 207, 238);
 }
 

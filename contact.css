@@ -1,3 +1,7 @@
+@font-face {
+    font-family:tittle-square;
+    src: url(./fonts/Nova_Square/NovaSquare-Regular.ttf);
+}
 #contact {
     position: relative;
     top: 4500px;
@@ -5,7 +9,7 @@
 
 .contact-tittle {
     font-size: 60px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: tittle-square, Arial, sans-serif;
     text-shadow: 4px 4px 9px rgb(9, 198, 227);
     position: absolute;
     left: 30px;

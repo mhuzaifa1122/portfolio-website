@@ -1,3 +1,17 @@
+@font-face {
+    font-family: tittle-square;
+    src: url(./fonts/Nova_Square/NovaSquare-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'alconica';
+    src: url(./fonts/Rubik_Glitch_Pop/RubikGlitchPop-Regular.ttf);
+}
+@font-face {
+    font-family: 'tac-one';
+    src: url(./fonts/Tac_One/TacOne-Regular.ttf);
+}
+
 * {
     color: white;
 }
@@ -6,10 +20,18 @@ body {
     background-image: url(./images/bg1.jpg);
 }
 
+/* portfolio */
 .portfolio-text {
-    font-size: 30px;
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 40px;
     font-weight: 700;
     text-shadow: 3px 3px rgb(0, 0, 0);
+    font-family: alconica;
+
 }
 
 hr {
@@ -24,21 +46,51 @@ hr {
 
 }
 
+/* 
+<!-- HTML !-->
+<button class="button-86" role="button">Button 86</button>
+
+/* CSS */
+/*
+
+*/
 button {
+    width: 100px;
+    height: 40px;
+    background: #000;
+    border: 3px solid rgb(127, 209, 239);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgb(127, 209, 239);
+
+}
+
+button:hover{
+    background: rgb(127, 209, 239);
+    border: 0px solid rgb(127, 209, 239);
+    border-radius: 10px;
+    box-shadow: 100px 2px 10px 50px rgb(127, 209, 239, );
+}
+
+.button-font:hover {
     
-    box-shadow: 3px 2px 10px white;
-    padding: 8px;
-    font-size: large;
-    border: 1px dashed rgb(255, 255, 255);
-    border-radius: 20px;
-    background-color: rgba(182, 193, 202, 0.50);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: tac-one;
+    color: rgb(19, 19, 19);
+    font-weight: 100;
+    letter-spacing: 5px;
 }
 
 .button-font {
+    text-transform: uppercase;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    font-weight: 600;
+    font-size: 15px;
+    font-family: tac-one;
+    color: rgb(127, 209, 239);
+    font-weight: 100;
+    letter-spacing: 5px;
+    
 }
 
 header {
@@ -48,27 +100,33 @@ header {
     border-radius: 10px;
     background-color: rgba(169, 179, 186, 0.60);
 }
-.home-icon-speaker{
+
+.home-icon-speaker {
     position: absolute;
-    left: 500px;
+    left: 630px;
     top: 155px;
     width: 50px;
     height: 50px;
-    
-  
+
+
 }
-.home-icon-video{
+
+.home-icon-video {
     position: absolute;
-    left: 550px;
+    left: 680px;
     top: 155px;
     width: 50px;
     height: 50px;
     opacity: 0.60;
 }
+
 .name {
     /* for adjusting huzaifa name in home  */
     text-shadow: 4px 4px 9px rgb(7, 207, 238);
     font-size: 50px;
+    font-weight: 1000;
+    font-family: tittle-square;
+
 }
 
 .home-text {
@@ -76,6 +134,10 @@ header {
     padding: 80px;
     position: absolute;
     left: 4%;
+}
+
+.home-text>p {
+    word-spacing: 20px;
 }
 
 .hpic {
