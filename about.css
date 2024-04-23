@@ -40,6 +40,11 @@ table {
     position: absolute;
     left: 10px;
     top: 150px;
+    border: 10px solid rgb(7, 207, 238);
+}
+.hpic-about:hover{
+    box-shadow: 1px 1px 30px 15px rgb(7, 207, 238);
+    
 }
 /* ---bottons (top down in about) */
 .top-bottom-from-about{
@@ -47,10 +52,13 @@ table {
     height: 40px;
     position: relative;
     top: 70px;
-    left: 1150px;
     right: -1150px;
-    box-shadow: 4px 4px 9px rgb(121, 216, 231);
-    
+    border: 6px outset black;
+}
+.top-bottom-from-about:hover{
+   
+    box-shadow: 1px 1px 20px 3px  rgb(121, 216, 231);
+    border: 6px outset black;
 }
 #about {
     position: relative;

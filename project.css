@@ -15,8 +15,12 @@
     height: 40px;
     position: relative;
     top: 70px;
-    left: 910px;
-    box-shadow: 4px 4px 9px rgb(121, 216, 231);
+    left: 930px;
+    border: 6px outset black;
+}
+.top-bottom-from-project:hover{
+    box-shadow: 1px 1px 20px 3px  rgb(121, 216, 231);
+    border: 6px outset black;
 }
 .project1-video {
     position: absolute;

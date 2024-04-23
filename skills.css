@@ -69,10 +69,13 @@ text-shadow: 3px 4px 3px rgb(9, 9, 9);
 /* ---------button for top bottom------------ */
 .top-bottom-from-skills{
     position: relative;
-    top: 3874px;
-    left: 780px;
+    top: 3854px;
+    left: 830px;
      width: 40px;
     height: 40px;
-    box-shadow: 4px 4px 9px rgb(121, 216, 231);
-    
+    border: 6px outset black;
+}
+.top-bottom-from-skills:hover{
+    box-shadow: 1px 1px 20px 3px rgb(121, 216, 231);
+    border: 6px outset black;
 }
